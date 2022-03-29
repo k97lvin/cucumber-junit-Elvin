@@ -7,3 +7,4 @@ Feature: User should be able login using credentials
     And user enters password "Tester"
     And user clicks login button
     Then user should see url contains orders
+
