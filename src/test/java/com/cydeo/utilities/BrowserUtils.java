@@ -56,5 +56,8 @@ for given duration
 
     }
 
+    public static void verifyTitleContains(String exceptedInTitle){
+        Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(exceptedInTitle));
+    }
 
 }
