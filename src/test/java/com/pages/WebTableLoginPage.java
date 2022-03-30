@@ -31,14 +31,12 @@ public class WebTableLoginPage {
         inputUsername.sendKeys(username);
         loginButton.click();
     }
+
     public void loginWithConfig() {
-     inputUsername.sendKeys(ConfigurationReader.getProperty("webtableUrl"));
-     inputPassword.sendKeys(ConfigurationReader.getProperty("webtableUrl"));
-     loginButton.click();
+        inputUsername.sendKeys(ConfigurationReader.getProperty("webtableUrl"));
+        inputPassword.sendKeys(ConfigurationReader.getProperty("webtableUrl"));
+        loginButton.click();
     }
-
-
-
 
 
 }
